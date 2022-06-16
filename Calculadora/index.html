@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="content-body">
+      <div class="calculator">
+        <div class="display">
+          <input type="text" placeholder="0" disabled id="display-result" />
+        </div>
+        <div class="btn ">
+          <input type="button" value="7" onclick="getNumber(this)" />
+        </div>
+        <div class="btn ">
+          <input type="button" value="8" onclick="getNumber(this)" />
+        </div>
+        <div class="btn ">
+          <input type="button" value="9" onclick="getNumber(this)" />
+        </div>
+        <div class="btn   ">
+          <input type="button" value="+" class="equal" onclick="getNumber(this)" />
+        </div>
+        <div class="btn ">
+          <input type="button" value="4" onclick="getNumber(this)" />
+        </div>
+        <div class="btn ">
+          <input type="button" value="5" onclick="getNumber(this)" />
+        </div>
+        <div class="btn ">
+          <input type="button" value="6" onclick="getNumber(this)" />
+        </div>
+        <div class="btn  ">
+          <input type="button" value="-" class="equal" onclick="getNumber(this)" />
+        </div>
+        <div class="btn ">
+            <input type="button" value="1" onclick="getNumber(this)"/>
+        </div>
+        <div class="btn ">
+            <input type="button" value="2" onclick="getNumber(this)"/>
+        </div>
+        <div class="btn ">
+          <input type="button" value="3" onclick="getNumber(this)" />
+        </div>
+        <div class="btn  ">
+          <input type="button" value="*" class="equal" onclick="getNumber(this)" />
+        </div>
+        <div class="btn " id="cero">
+          <input type="button" value="0" onclick="getNumber(this)" />
+        </div>
+        <div class="btn ">
+          <input type="button" value="/" onclick="getNumber(this)" />
+        </div>
+        <div class="btn clean">
+          <input type="button" value="C" class="clean" onclick="clean()" />
+        </div>
+        <div class="btn  equal ">
+          <input type="button" value="=" class="equal" onclick="result()" />
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
